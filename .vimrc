@@ -1,9 +1,5 @@
-" enable tpope's pathogen plugin manager
-" to install a plugin, simply clone it into $HOME/.vim/bundle
-execute pathogen#infect()
-
 " use space as the leader key
-let mapleader = ","
+let mapleader = " "
 
 " remove compatibilty with original vi
 set nocompatible
@@ -52,3 +48,7 @@ set showmatch
 
 " wrap long lines
 set wrap
+
+" change default split locations
+set splitbelow
+set splitright
